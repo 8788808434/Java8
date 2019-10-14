@@ -1,0 +1,5 @@
+package com.advance.annonymousInnerClass;
+
+public interface Annonymousinter {
+
+}

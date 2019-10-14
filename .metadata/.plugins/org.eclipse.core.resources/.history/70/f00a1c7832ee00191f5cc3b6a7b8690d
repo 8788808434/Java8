@@ -1,0 +1,14 @@
+package com.advance.table;
+
+public class Any_Table {
+
+	public static void main(String args[])
+	{
+		Finters f=a->{
+			for(int i=0;i<=10;i++)
+			{
+				System.out.println(a*i);
+			}
+		};
+	}
+}

@@ -1,0 +1,12 @@
+package com.advance.example;
+
+import java.util.ArrayList;
+
+public class Second_Highest_sal {
+	public static void main(String args[])
+	{
+		ArrayList<Employee> e=new ArrayList();
+		e.add(new Employee())
+	}
+
+}

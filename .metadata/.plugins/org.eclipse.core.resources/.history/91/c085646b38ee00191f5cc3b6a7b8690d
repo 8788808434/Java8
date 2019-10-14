@@ -1,0 +1,5 @@
+package com.advance.check;
+
+public interface Inter {
+
+}

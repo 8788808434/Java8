@@ -1,0 +1,20 @@
+package com.advance.replaceannonymouswithlambda;
+
+public class Annonymous_lambda {
+
+	public static void main(String args[])
+	{
+		Fannonymous_lambda f=new Fannonymous_lambda()
+		{
+
+			@Override
+			public void m1() {
+				System.out.println("Hii i am java developer");
+				
+			}
+			
+		};
+		f.m1();
+		
+	}
+}
