@@ -1,0 +1,10 @@
+package com.advance.defaultmethod;
+@FunctionalInterface
+public interface Idefault {
+
+	public void m2();
+	default void m1()
+	{
+		System.out.println("hii these is default method");
+	}
+}

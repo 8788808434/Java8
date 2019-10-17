@@ -1,0 +1,21 @@
+package com.advance.defaultmethod;
+
+public class Default_method implements Idefault{
+
+	public static void main(String args[])
+	{
+		
+	}
+
+	@Override
+	public void m2() {
+		System.out.println("these is m2");
+		
+	}
+
+	@Override
+	public void m3() {
+		System.out.println("these is m3");
+		
+	}
+}

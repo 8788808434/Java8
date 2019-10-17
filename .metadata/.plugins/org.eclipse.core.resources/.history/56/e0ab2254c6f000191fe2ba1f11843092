@@ -1,0 +1,12 @@
+package com.advance.defaultfunctionalinterface;
+
+import java.util.ArrayList;
+
+public class Function {
+
+	public static void main(String args[])
+	{
+		ArrayList<Employee> a=new ArrayList<>;
+		a.add(new Employee(1,"achin"))
+	}
+}

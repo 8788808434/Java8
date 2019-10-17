@@ -1,0 +1,45 @@
+package com.advance.defaultfunctionalinterface;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
+
+public class DefaultFunctionalinterf {
+
+	public static void main(String args[])
+	{
+		ArrayList<Cricketerinfo> a=new ArrayList<>();
+		a.add(new Cricketerinfo(1,"sachin",10000,51,94,54.23));
+		a.add(new Cricketerinfo(2,"v.kohli",11000,43,55,54));
+		a.add(new Cricketerinfo(3,"MS Dhoni",10500,11,73,51));
+		a.add(new Cricketerinfo(4,"Avinash",32000,76,99,91.12));
+		
+		Function<Cricketerinfo,Boolean>	p=(c)->{
+				Predicate<Cricketerinfo> c2=(c1)->c1.getAverage()>52 && c1.getAverage()<90;
+				return c2.test(c);
+		};
+		
+		Consumer<Cricketerinfo> cs=(cds)->{
+			System.out.println("Name:"+cds.getName());
+			System.out.println("TotalScore:"+cds.getTotalruns());
+			System.out.println("Halfcentures:"+cds.getHalfcentury());
+			System.out.println("Century:"+cds.getCenture());
+			System.out.println("Average:"+cds.getAverage());
+			
+		};
+		
+		Supplier<Date> s=()->new Date();
+		for(Cricketerinfo cd:a)
+		{
+			if(p.apply(cd))
+			{
+				cs.accept(cd);
+			}
+		}
+		System.out.println("AT RECENT DATE:"+s.get());
+		
+	}
+}

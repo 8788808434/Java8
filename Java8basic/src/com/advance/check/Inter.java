@@ -1,5 +1,5 @@
 package com.advance.check;
-@FunctionalInterface
+
 public interface Inter {
 	
 	public void msg();

@@ -1,0 +1,12 @@
+package com.advance.defaultfunctionalinterface;
+
+import java.util.ArrayList;
+
+public class Predicat {
+
+	//1.predicate functional interface is use for conditional statements
+	//2.contains test() and have boolean return type
+	ArrayList l=new ArrayList<>();
+	l.add(new Employee(1,"Avinash",2000.0));
+	
+}

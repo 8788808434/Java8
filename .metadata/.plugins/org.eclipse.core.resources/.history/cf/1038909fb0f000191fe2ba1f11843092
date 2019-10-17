@@ -1,0 +1,8 @@
+package com.advance.defaultfunctionalinterface;
+
+public class Predicat {
+
+	//1.predicate functional interface is use for conditional statements
+	//2.contains test() and have boolean return type
+	
+}
