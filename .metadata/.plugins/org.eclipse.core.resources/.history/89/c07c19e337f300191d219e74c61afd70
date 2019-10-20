@@ -1,0 +1,6 @@
+package com.advance.methodandconstructorreference;
+
+public interface Method_referstatic {
+ 
+		public int add(int a,int b);
+}

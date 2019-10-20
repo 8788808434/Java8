@@ -1,0 +1,5 @@
+package com.advance.methodandconstructorreference;
+
+public interface Methodfreference {
+
+}

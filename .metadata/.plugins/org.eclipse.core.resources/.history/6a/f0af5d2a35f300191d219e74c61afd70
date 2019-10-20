@@ -1,0 +1,6 @@
+package com.advance.methodandconstructorreference;
+
+public interface Methodfreference {
+
+	public void sum();
+}
